@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     class CallWebService extends AsyncTask<String, Void, String> {
         @Override
         protected void onPostExecute(String s) {
-            resultadoSoap.setText("Square = " + s);
+            resultadoSoap.setText("result = " + s);
         }
 
         @Override
