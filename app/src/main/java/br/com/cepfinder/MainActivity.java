@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editText = findViewById(R.id.editText);
-        button = findViewById(R.id.buttonSoap);
-        textView = findViewById(R.id.resultSoap);
+        button = findViewById(R.id.button2);
+        textView = findViewById(R.id.textView);
 
         buttonSoap = findViewById(R.id.buttonSoap);
         resultadoSoap = findViewById(R.id.resultSoap);
